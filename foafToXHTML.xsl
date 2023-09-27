@@ -17,7 +17,7 @@
                 <p>Nom de famille: <xsl:value-of select="/rdf:RDF/foaf:Person/foaf:family_name"/></p>
                 <p>Date de naissance: <xsl:value-of select="/rdf:RDF/foaf:Person/foaf:dateOfBirth"/></p>
                 <p>Adresse e-mail (SHA1): <xsl:value-of select="/rdf:RDF/foaf:Person/foaf:mbox_sha1sum"/></p>
-                <p>Page personnelle: <a href="<xsl:value-of select="/rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/>"><xsl:value-of select="/rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/></a></p>
+                <p>Page personnelle: <a href="<xsl:value-of select='/rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource'/>"><xsl:value-of select="/rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/></a></p>
                 <h2>Connaissances</h2>
                 <ul>
                     <xsl:for-each select="/rdf:RDF/foaf:knows/foaf:Person">
