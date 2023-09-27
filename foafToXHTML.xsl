@@ -20,7 +20,7 @@
                 <p>Page personnelle: <a href="<xsl:value-of select="/rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/>"><xsl:value-of select="/rdf:RDF/foaf:Person/foaf:homepage/@rdf:resource"/></a></p>
                 <h2>Connaissances</h2>
                 <ul>
-                    <xsl:for-each select="/rdf:RDF/foaf:Person/foaf:knows/foaf:Person">
+                    <xsl:for-each select="/rdf:RDF/foaf:knows/foaf:Person">
                         <li>
                             <a href="{@rdf:about}"><xsl:value-of select="foaf:name"/></a>
                             <p>Adresse e-mail (SHA1): <xsl:value-of select="foaf:mbox_sha1sum"/></p>
