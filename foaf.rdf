@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <foaf:Person rdf:about="https://justinReverdy1.github.io/foaf/foaf.rdf">
+      <foaf:name>Justin Reverdy</foaf:name>
+      <foaf:title>M.</foaf:title>
+      <foaf:givenname>Justin</foaf:givenname>
+      <foaf:family_name>Reverdy</foaf:family_name>
+      <foaf:mbox_sha1sum>aa9bbddaa0d71137c299275f8735abb235258240</foaf:mbox_sha1sum>
+      <foaf:homepage rdf:resource="https://justinReverdy1.github.io/foaf/"/>
+      <foaf:dateOfBirth>2002-05-02</foaf:dateOfBirth>
+  
+      <foaf:knows>
+          <foaf:Person rdf:about="https://turbomoai.github.io/foaf.rdf">
+              <foaf:name>Fabien Frappier</foaf:name>
+              <foaf:mbox_sha1sum>e19032a883f88e13d936eb7a36547596c724f972</foaf:mbox_sha1sum>
+              <rdfs:seeAlso rdf:resource="https://turbomoai.github.io" />
+          </foaf:Person>
+      </foaf:knows>
+  </foaf:Person>
+
+</rdf:RDF>
